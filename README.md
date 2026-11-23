@@ -1,5 +1,5 @@
 # DE_learning_notes
-
+20/11/2026
 Concepts covered 
 -DBMS
 -Evolution of DBMS
@@ -9,3 +9,11 @@ Concepts covered
 -Data Indepenence
 -Integrity Contraints
 -revised SQL 
+
+23/11/2026
+Concepts covered 
+-ER Model
+-Degree of relationship
+-Normalization
+-SQL Joins
+-practiced sql
