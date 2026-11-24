@@ -17,3 +17,28 @@ Concepts covered
 -Normalization
 -SQL Joins
 -practiced sql
+
+24/11/2026
+Concepts covered
+-different data related roles
+-alternatives to sql
+-indexing
+-practiced normalization 
+-practiced sql joins
+
+Till 24/11/2026
+concepts covered
+-DBMS
+-SQL Commands(ddl,dml,dql,dcl,tcl)
+-data types
+-constaints
+-sql clauses
+-case statement
+-sql joins
+-normalization
+-indexing
+-er model
+-types of relationships
+-de foundations
+-snowflake
+
