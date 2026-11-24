@@ -1,5 +1,9 @@
 select *from employee;
 select *from department;
+select *from Employee_Project;
+select *from Project;
+select *from Attendance;
+select *from Salary_History;
 
 select first_name,last_name,job_title,salary 
 from employee
@@ -103,6 +107,38 @@ select e.first_name+' '+e.last_name as employee_name,m.first_name+' '+m.last_nam
 from employee e
 join employee m on e.manager_id=m.employee_id;
 
+select e.employee_id,e.first_name+' '+e.last_name as employee_name, m.first_name+' '+m.last_name as manager_name
+from employee e
+left join employee m on e.manager_id=m.employee_id;
+
+select e.employee_id, e.first_name+' '+e.last_name as employee_name
+from employee e 
+left join employee m on e.manager_id=m.employee_id
+where m.manager_id is null;
+
+select d.department_name,count(e.employee_id) as employee_count
+from department d 
+left join employee e on d.department_id=e.department_id
+group by department_name;
+
+select e.employee_id,first_name,last_name
+from employee e
+left join employee_project p on e.employee_id=p.employee_id
+where p.project_id is null
+--39
+select e.first_name+' '+e.last_name as employee_name,project_name,role,hours_worked
+from employee e 
+join employee_project p on e.employee_id = p.employee_id
+join project k on p.project_id = k.project_id
+order by k.project_name;
+
+select p.project_name , count(*) as employee_count
+from project p
+left join employee_project ep on ep.project_id=p.project_id
+group by p.project_id,p.project_name
+order by employee_count desc;
+
+select @@version;
 
 
 
