@@ -26,7 +26,7 @@ Concepts covered
 -practiced normalization 
 -practiced sql joins
 
-Till 24/11/2026
+Till 24/11/2026(for review 1)
 concepts covered
 -DBMS
 -SQL Commands(ddl,dml,dql,dcl,tcl)
@@ -41,4 +41,13 @@ concepts covered
 -types of relationships
 -de foundations
 -snowflake
+
+25/11/2026
+-revised all the concepts learnt till date 
+-review and assessment
+
+26/11/2026
+practiced sql problems on leetcode and hacker rank 
+link for leetcode acc- https://leetcode.com/u/psaipranitha/
+hacker rank account - https://www.hackerrank.com/profile/psaipranitha
 
