@@ -51,3 +51,8 @@ practiced sql problems on leetcode and hacker rank
 link for leetcode acc- https://leetcode.com/u/psaipranitha/
 hacker rank account - https://www.hackerrank.com/profile/psaipranitha
 
+27/11/2026
+-practiced sql problems on leetcode
+-solved problem statement and uploaded as practice.sql file
+--subqueries
+
